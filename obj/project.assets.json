@@ -767,11 +767,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/xuexiaobao/Desktop/my-project/social-app/social-app-backend/social-app-backend/social-app-backend.csproj",
+      "projectUniqueName": "/Users/xuexiaobao/Desktop/my-project/social-app-backend/social-app-backend/social-app-backend.csproj",
       "projectName": "social-app-backend",
-      "projectPath": "/Users/xuexiaobao/Desktop/my-project/social-app/social-app-backend/social-app-backend/social-app-backend.csproj",
+      "projectPath": "/Users/xuexiaobao/Desktop/my-project/social-app-backend/social-app-backend/social-app-backend.csproj",
       "packagesPath": "/Users/xuexiaobao/.nuget/packages/",
-      "outputPath": "/Users/xuexiaobao/Desktop/my-project/social-app/social-app-backend/social-app-backend/obj/",
+      "outputPath": "/Users/xuexiaobao/Desktop/my-project/social-app-backend/social-app-backend/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/xuexiaobao/.nuget/NuGet/NuGet.Config"

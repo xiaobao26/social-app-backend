@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Hxss57vyVcA=",
+  "dgSpecHash": "U6mrrlQBqMY=",
   "success": true,
-  "projectFilePath": "/Users/xuexiaobao/Desktop/my-project/social-app/social-app-backend/social-app-backend/social-app-backend.csproj",
+  "projectFilePath": "/Users/xuexiaobao/Desktop/my-project/social-app-backend/social-app-backend/social-app-backend.csproj",
   "expectedPackageFiles": [
     "/Users/xuexiaobao/.nuget/packages/jquery/1.6.4/jquery.1.6.4.nupkg.sha512",
     "/Users/xuexiaobao/.nuget/packages/microsoft.aspnet.signalr/2.4.3/microsoft.aspnet.signalr.2.4.3.nupkg.sha512",
