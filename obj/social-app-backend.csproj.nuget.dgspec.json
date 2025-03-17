@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/xuexiaobao/Desktop/my-project/social-app-backend/social-app-backend/social-app-backend.csproj": {}
+    "/Users/xuexiaobao/Desktop/my-project/social-app-backend/social-app-backend.csproj": {}
   },
   "projects": {
-    "/Users/xuexiaobao/Desktop/my-project/social-app-backend/social-app-backend/social-app-backend.csproj": {
+    "/Users/xuexiaobao/Desktop/my-project/social-app-backend/social-app-backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/xuexiaobao/Desktop/my-project/social-app-backend/social-app-backend/social-app-backend.csproj",
+        "projectUniqueName": "/Users/xuexiaobao/Desktop/my-project/social-app-backend/social-app-backend.csproj",
         "projectName": "social-app-backend",
-        "projectPath": "/Users/xuexiaobao/Desktop/my-project/social-app-backend/social-app-backend/social-app-backend.csproj",
+        "projectPath": "/Users/xuexiaobao/Desktop/my-project/social-app-backend/social-app-backend.csproj",
         "packagesPath": "/Users/xuexiaobao/.nuget/packages/",
-        "outputPath": "/Users/xuexiaobao/Desktop/my-project/social-app-backend/social-app-backend/obj/",
+        "outputPath": "/Users/xuexiaobao/Desktop/my-project/social-app-backend/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/xuexiaobao/.nuget/NuGet/NuGet.Config"
@@ -43,6 +43,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Azure.AI.Translation.Text": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "Microsoft.AspNet.SignalR": {
               "target": "Package",
               "version": "[2.4.3, )"

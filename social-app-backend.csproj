@@ -8,6 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="Azure.AI.Translation.Text" Version="1.0.0" />
         <PackageReference Include="Microsoft.AspNet.SignalR" Version="2.4.3" />
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.10"/>
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2"/>
