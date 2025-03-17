@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/social-app-backend.props" />
+</Project>
