@@ -37,16 +37,18 @@ public class Program
             app.UseSwaggerUI();
         }
 
-        app.MapGet("/", () => "SignalR Service is running!");
 
-        app.UseRouting();
-        
         app.UseCors();
-
+        app.UseRouting();
         app.UseAuthorization();
-        
-        app.MapHub<ChatHub>("/Chat");
-
+        app.MapGet("/", () => "SignalR Service is running!");
+        app.MapHub<ChatHub>("/Chat").RequireCors(policy =>
+        {
+            policy.WithOrigins("https://brave-rock-070c6bd00.6.azurestaticapps.net")
+                .AllowAnyHeader()
+                .AllowAnyMethod()
+                .AllowCredentials();
+        });
         app.Run();
     }
 }
