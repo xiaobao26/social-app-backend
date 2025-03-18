@@ -12,7 +12,7 @@ public class Program
         {
             options.AddDefaultPolicy(policy =>
             {
-                policy.WithOrigins("http://localhost:5173", "https://purple-coast-0f3d6a200.6.azurestaticapps.net")
+                policy.WithOrigins("http://localhost:5173", "https://brave-rock-070c6bd00.6.azurestaticapps.net")
                     .AllowAnyHeader()
                     .AllowAnyMethod()
                     .AllowCredentials();
