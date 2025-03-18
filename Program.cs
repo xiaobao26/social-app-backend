@@ -37,9 +37,13 @@ public class Program
             app.UseSwaggerUI();
         }
 
-        app.UseAuthorization();
+        app.MapGet("/", () => "SignalR Service is running!");
+
+        app.UseRouting();
         
         app.UseCors();
+
+        app.UseAuthorization();
         
         app.MapHub<ChatHub>("/Chat");
 
