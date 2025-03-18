@@ -1,0 +1,26 @@
+# Ignore build output (compiled DLLs, executables)
+bin/
+obj/
+publish/
+*.dll
+*.pdb
+*.exe
+*.cache
+
+# Rider (JetBrains) IDE settings
+.idea/
+*.sln.iml
+
+# User-specific files (VSCode, logs)
+.vscode/
+*.log
+
+# Ignore Debug/Release builds
+Debug/
+Release/
+
+# Ignore configuration files
+appsettings*.json
+
+# Ignore Azure deployment artifacts
+.azure/
